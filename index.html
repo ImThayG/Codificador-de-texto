@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Codificador</title>
+</head>
+<body>
+    <div class="main-div">
+        <div class="container-text">
+            <h1>Codificador de texto</h1>
+            <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+            
+            <div class="container-btn"> 
+                <input type="button" value="Criptografar" id="codificar" onclick="criptografar()">
+                <input type= "button" value="Descriptografar" id="decodificar" onclick="descriptografar()">
+            </div>
+        
+        </div>
+        <div class="output">
+            <img src="img/Code typing-bro.png" alt="img">
+            <p>Seu texto criptografado será exibido aqui!</p>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

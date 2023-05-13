@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #92e3a9;
+}
+
+.main-div{
+    margin:auto;
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background: #92e3a9;
+    padding: 50px;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 850px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.351);
+    
+   
+
+}
+
+
+.main-div h1{
+     margin-bottom: 15px;
+     color: #3c474c;
+}
+
+#texto{
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color: #3c474c;
+    background:transparent;
+    box-shadow:rgb(172, 213, 255);
+    resize: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    border-width: medium;
+    border-style: solid;
+    border-color: #92e3a9;
+    margin-left: 27px;
+  }
+
+.output img{
+    width: 400px;
+}
+
+#codificar, #decodificar{
+    border: 3px solid #92e3a9;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #263238;
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+    margin-top: 15px;
+    background: #dff7e5;
+}
+
+#copiar{
+    border: 3px solid #92e3a9;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #263238;
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+    margin-top: 15px;
+    background: #dff7e5;
+
+}
+
+#codificar:hover, #decodificar:hover, #copiar:hover{
+    border: 3px solid #3c474c;
+    color: #dff7e5;
+    background: #3c474c;
+    transition: 0.3s all;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.351);
+}
+
+#texto:hover{
+    color: #3c474c;
+    background:transparent;
+    box-shadow:#3c474c;
+    border-color: #3c474c;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.351);
+    transition: 0.3s all;
+}
+
+#textoCopy{
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color: #3c474c;
+    background:transparent;
+    box-shadow:rgb(172, 213, 255);
+    resize: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    border-width: medium;
+    border-style: solid;
+    border-color: #92e3a9;
+    margin-top: 52px;
+
+}
